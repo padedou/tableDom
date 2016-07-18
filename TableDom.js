@@ -30,6 +30,11 @@ var TableDom = function(){
 	instance.getDom = function(){
 		return table;
 	};
+	
+	instance.setTableId = function(_id){
+		table.id = _id;
+	};
+
 
 	// Gets an array of css classes
 	// Sets this table element class
