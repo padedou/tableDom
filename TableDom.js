@@ -3,9 +3,6 @@ var TableDom = function(){
 
 	var table;
 	var trHead;
-	var trHeadCompany;
-	var trHeadContact;
-	var trHeadCountry;
 	var tableClass = "";
 	var tdClass = "";
 	var thClass = "";
